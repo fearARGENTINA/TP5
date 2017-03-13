@@ -1,6 +1,6 @@
 body {
 	width: 100%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Hind', sans-serif;
 }
 
 body > * {
@@ -182,17 +182,17 @@ body > * {
 	}
 
 	section.contacto {
-		padding: 150px 0 150px 150px;	
+		padding: 250px 0;	
 		font-weight: 700;
 	}
 
 	section.contacto h2 {
-		font-size: 40px;
+		font-size: 60px;
 	}
 
 	section.contacto h3 {
 		margin: 10px 0;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	section article.form-contacto {
@@ -200,7 +200,7 @@ body > * {
 	}
 
 	section .form-contacto form {
-		width: 550px;
+		width: 80%;
 	}
 
 	section .form-contacto form * {
@@ -209,21 +209,21 @@ body > * {
 
 	section .form-contacto input[type="text"], section .form-contacto textarea {
 		width: 100%;
-		font-size: 25px;
+		font-size: 40px;
 		box-sizing: border-box;
 		padding: 10px;
 	}
 
 	section .form-contacto input[type="text"] {
-		height: 60px;
+		height: 100px;
 	}
 
 	section .form-contacto input[type="submit"] {
 		background-color: #124867;
 		border: 1px solid black;
-		width: 150px;
+		width: 200px;
 		padding: 10px;
-		font-size: 20px;
+		font-size: 40px;
 	}
 
 	section .form-contacto * {
