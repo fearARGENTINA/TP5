@@ -161,7 +161,6 @@ body > * {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
-		
 	}
 
 	section.paginas div .pagina img {
@@ -184,10 +183,11 @@ body > * {
 	section.contacto {
 		padding: 150px 0 150px 150px;	
 		font-weight: 700;
+		min-height: 100%;
 	}
 
 	section.contacto h2 {
-		font-size: 40px;
+		font-size: 60px;
 	}
 
 	section.contacto h3 {
