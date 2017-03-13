@@ -1,6 +1,6 @@
 body {
 	width: 100%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Hind', sans-serif;
 }
 
 body > * {
@@ -181,7 +181,7 @@ body > * {
 	}
 
 	section.contacto {
-		padding: 150px 0 150px 150px;	
+		padding: 250px 0;
 		font-weight: 700;
 		min-height: 100%;
 	}
@@ -192,15 +192,16 @@ body > * {
 
 	section.contacto h3 {
 		margin: 10px 0;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	section article.form-contacto {
 		margin-top: 40px;
 	}
 
+
 	section .form-contacto form {
-		width: 550px;
+		width: 80%;
 	}
 
 	section .form-contacto form * {
@@ -209,7 +210,7 @@ body > * {
 
 	section .form-contacto input[type="text"], section .form-contacto textarea {
 		width: 100%;
-		font-size: 25px;
+		font-size: 50px;
 		box-sizing: border-box;
 		padding: 10px;
 	}
@@ -221,9 +222,9 @@ body > * {
 	section .form-contacto input[type="submit"] {
 		background-color: #124867;
 		border: 1px solid black;
-		width: 150px;
+		width: 200px;
 		padding: 10px;
-		font-size: 20px;
+		font-size: 50px;
 	}
 
 	section .form-contacto * {
