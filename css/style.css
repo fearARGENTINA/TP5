@@ -8,11 +8,10 @@ body > * {
 }
 
 /* Media Query smarthphones */
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-device-width: 768px)  {
 	nav {
 		display: flex;
 		justify-content: space-between;
-
 		box-sizing: border-box;
 		width: 100%;
 		padding: 0 20px;
@@ -257,7 +256,7 @@ body > * {
 }
 
 /* Media Query tablet & escritorio */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-device-width: 769px) {
 	nav {
 		padding: 0 50px;
 		box-sizing: border-box;
