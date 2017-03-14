@@ -8,7 +8,7 @@ body > * {
 }
 
 /* Media Query smarthphones */
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px)  {
 	nav {
 		display: flex;
 		justify-content: space-between;
@@ -47,6 +47,7 @@ body > * {
 	}
 
 	nav .left i {
+		display: inline-block;
 		color: white;
 		font-size: 30px;
 		line-height: 100px;
@@ -254,7 +255,7 @@ body > * {
 }
 
 /* Media Query tablet & escritorio */
-@media only screen and (min-device-width: 769px) {
+@media only screen and (min-width: 769px) {
 	nav {
 		padding: 0 50px;
 		box-sizing: border-box;
@@ -266,12 +267,18 @@ body > * {
 		justify-content: space-between;
 	}
 
+	nav .left i {
+		display: none;
+	}
+
 	nav .right {
 		margin: 30px 40px 30px 0px;
 	}
 
 	nav .left {
-		margin: 30px 0 30px 40px;	
+		margin: 30px 0 30px 40px;
+		visibility: visible;
+		opacity: 1;
 	}
 
 	nav .left i {
@@ -374,25 +381,19 @@ body > * {
 	}
 
 	section.paginas div {
-		margin: 0 auto;
-		text-align: center;
 		display: flex;
-		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: space-around;
+		align-content: space-around;
 	}
-	/*
-	section.paginas div .pagina {
-		display: inline-block;
-	}*/
 
-	section.paginas .pagina:first-child {
-		margin-right: 50px;
+	section.paginas div .pagina {
+		width: 40%;
 		margin-bottom: 50px;
 	}
 
-	section.paginas .pagina:last-child {
-		margin-left: 50px;
+	section.paginas div .pagina img {
+		width: 100%;
 	}
 
 	section.paginas .pagina p {
